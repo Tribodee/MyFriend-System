@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+  }
+  body {
+    font-size: 120%;
+    background: #F8F8FF;
+    min-height: 100vh;
+  }
+  .member{
+    width: 64.6%;
+    margin-left:32.7%;
+    padding: 20px;
+    /* border: 1px solid #B0C4DE;
+    background: white; */
+    position:relative;
+    left:0;
+    top:-473px;
+    /* border-radius: 0px 0px 10px 10px; */
+
+    
+    /* มั่ว */
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+  }
+  .boxmember{
+    display:inline-block;
+
+    /* มั่ว */
+    width: 25%;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color:white;
+    /* max-width:250px; */
+  }
+  .img_member{
+    max-width: 200px;
+  }
+  .boxgame{
+    width: 30%;
+    /* margin: 0px auto; */
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    /* border-radius: 0px 0px 10px 10px; */
+    text-align:center;
+    /* position: fixed; */
+  }
+  .game{
+    padding:20px;
+  }
+  .header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 80%;
+
+  }
+  .textprofile1{
+    text-align:right;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+    text-align:center;
+  }
+
+
+
+
+
+
+
+
+
+  /* bg */
+  section{
+    position:relative;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ขอบ */
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(to top, rgb(25, 10, 35) ,transparent);
+    z-index:10;
+}
+
+/* img */
+section img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+
+
+
+/* scroll down */
+.sec{
+  position:relative;
+  padding:100px;
+  background:rgb(25, 10, 35);
+}
+.sec p{
+  font-size: 1.5em;
+  color:rgb(255, 255, 255);
+}
+.sec p img{
+  width:100%;
+  max-width: 250px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
