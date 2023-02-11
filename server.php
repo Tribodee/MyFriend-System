@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "123456789";
-    $dbname = "login_register";
+    $dbname = "stats_ma_teams_db";
 
     //Create Connection
     $conn = mysqli_connect($servername, $username, $password, $dbname);
